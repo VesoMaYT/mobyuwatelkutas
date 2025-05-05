@@ -1,0 +1,230 @@
+<head>
+    <title>mObywatel</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/card.css">
+    <link rel="stylesheet" href="assets/main.css">
+    <link rel="icon" type="image/x-icon" href="https://i.imgur.com/n4zJhma.png">
+    <link rel="apple-touch-icon" href="https://i.imgur.com/n4zJhma.png">
+    <link rel="shortcut icon" href="https://i.imgur.com/n4zJhma.png">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8, user-scalable=no">
+    <meta name="mobile-web-app-capable" content="yes">
+</head>
+<body>
+    <div class="top_grid">
+        <div class="action_grid">
+            <img src="https://cdn.discordapp.com/attachments/1368962637026557985/1368962678428794982/5_-_8HaXLMx.png?ex=681a2158&is=6818cfd8&hm=b15f17990d65c47655de9dc96d969065d5812123032bb4c5e3b67709c1887867&" class="back_img">
+            <p onclick="sendTo('home')" class="back_text">Wróć</p>
+        </div>
+        <p class="title_text">mDowód</p>
+        <img src="https://cdn.discordapp.com/attachments/1368962637026557985/1368962777523294309/44_-_zxtrquO.png?ex=681a2170&is=6818cff0&hm=7dfeef18a4e6b1059ba584758d062d57d02ac36dea69b28385fe7cd5a2432aad&" class="help_img">
+    </div>
+
+    <div class="confirm">
+        <div class="opacity" onclick="closePage()"></div>
+        <div class="page_1 page">
+            <p class="confirm_title">Wybierz dokument</p>
+            <div class="confirm_list">
+                <div class="card card_1">
+                    <div class="card_inner">
+                        <p class="confirm_name">Dowód osobisty</p>
+                        <p class="confirm_description">Zobaczysz tutaj dane swojego dowodu osobistego. Ale jeśli chcesz potwierdzić tożsamość, potrzebujesz fizycznego dokumentu.</p>
+                        <p class="confirm_button" onclick="openPage(2)">Pokaż dane</p>
+                    </div>
+                </div>
+                <div class="card card_2">
+                    <div class="card_inner">
+                        <p class="confirm_name">mDowód</p>
+                        <p class="confirm_description">Nie używaj danych mDowodu w banku (do 31 sierpnia), gdy wyjeżdżasz za granicę lub składasz wniosek o dowód osobisty.</p>
+                        <p class="confirm_button" onclick="openPage(3)">Pokaż dane</p>
+                    </div>
+                </div>
+            </div>
+            <p class="confirm_close close_page_1" onclick="closePage()">Zamknij</p>
+        </div>
+        <div class="page page_2 page_other">
+            <p class="confirm_title">Dane dowodu osobistego</p>
+            <div class="confirm_info">
+                <div class="confirm_box">
+                    <p class="box_top">Seria i numer</p>
+                    <p class="box_value box_highlight">ZZC 108201</p>
+                    <button class="main_button">Kopiuj</button>
+                </div>
+                <div class="confirm_box">
+                    <p class="box_top">Organ wydający</p>
+                    <p class="box_value">URZĄD MIEJSKI W WARSZAWIE</p>
+                </div>
+                <div class="confirm_box">
+                    <p class="box_top">Termin ważności</p>
+                    <p class="box_value">11.09.2032</p>
+                </div>
+                <div class="confirm_box" style="border: none;">
+                    <p class="box_top">Termin wydania</p>
+                    <p class="box_value">11.09.2022</p>
+                </div>
+            </div>
+            <p class="confirm_close close_page_2" onclick="closePage()">Zamknij</p>
+            <p class="confirm_back back" onclick="openPage(1)">Wróć</p>
+        </div>
+        <div class="page page_3 page_other">
+            <p class="confirm_title">Dane mDowodu</p>
+            <div class="confirm_info">
+                <div class="confirm_box">
+                    <p class="box_top">Seria i numer</p>
+                    <p class="box_value box_highlight">ZZC 108201</p>
+                    <button class="main_button">Kopiuj</button>
+                </div>
+                <div class="confirm_box">
+                    <p class="box_top">Organ wydający</p>
+                    <p class="box_value">URZĄD MIEJSKI W WARSZAWIE</p>
+                </div>
+                <div class="confirm_box">
+                    <p class="box_top">Termin ważności</p>
+                    <p class="box_value">11.09.2032</p>
+                </div>
+                <div class="confirm_box">
+                    <p class="box_top">Imię ojca</p>
+                    <p class="box_value">ANDRZEJ</p>
+                </div>
+                <div class="confirm_box" style="border: none;">
+                    <p class="box_top">Imię matki</p>
+                    <p class="box_value">KATARZYNA</p>
+                </div>
+            </div>
+            <p class="confirm_close close_page_2" onclick="closePage()">Zamknij</p>
+            <p class="confirm_back back" onclick="openPage(1)">Wróć</p>
+        </div>
+    </div>
+
+    <div class="bottom_bar">
+        <div class="bottom_bar_grid">
+            <div class="bottom_element_grid" send="home">
+                <div class="bottom_element_image home"></div>
+                <p class="bottom_element_text">Pulpit</p>
+            </div>
+            <div class="bottom_element_grid" send="documents">
+                <div class="bottom_element_image documents_open"></div>
+                <p class="bottom_element_text open">Dokumenty</p>
+            </div>
+            <div class="bottom_element_grid" send="services">
+                <div class="bottom_element_image services"></div>
+                <p class="bottom_element_text">Usługi</p>
+            </div>
+            <div class="bottom_element_grid" send="qr">
+                <div class="bottom_element_image qr"></div>
+                <p class="bottom_element_text">Kod QR</p>
+            </div>
+            <div class="bottom_element_grid" send="more">
+                <div class="bottom_element_image more"></div>
+                <p class="bottom_element_text">Więcej</p>
+            </div>
+        </div>
+    </div>
+    <p class="time_text" id="time"></p>
+    <div class="id_image_data">
+        <img draggable="false" class="id_image" src="https://cdn.discordapp.com/attachments/1368962637026557985/1368962724784115854/26_-_Ec4UslB.png?ex=681a2163&is=6818cfe3&hm=06292c3a1c5fb50eaa3031169a2be1a1eeb55eedb5ea7bbe0d7a4c47e7728d9a&">
+        <div class="inset">
+
+        </div>
+        <div class="id_own_image" style="background-image: url('https://cdn.discordapp.com/attachments/681890261806481465/1368960719923449866/Z.png?ex=681a1f85&is=6818ce05&hm=acddcfc57ab4872574f39ca8cbd4ab176bb77c9690067b78b8139c92ee7af447&');"></div>
+        <img draggable="false" src="https://cdn.discordapp.com/attachments/1368962637026557985/1368962704026636388/20_-_2yVubwX.gif?ex=681a215e&is=6818cfde&hm=64e7e3b3a93d2b6b4d3649de3c24c8fd1249138b70faa93553474d9f2c62f553&" class="flag_video">
+        <img draggable="false" src="https://cdn.discordapp.com/attachments/1368962637026557985/1368962705465147514/15_-_o2HUeKP.gif?ex=681a215f&is=6818cfdf&hm=327f6f03ea4797da519db9ee0a9bb5fe669799f3bc3fda62d337f9ee79647910&" class="eagle_video">
+        <p class="eagle_text">Rzeczpospolita<br>Polska</p>
+        <div class="id_data_grid">
+            <div class="data_holder">
+                <p class="data_title firstname" id="name"></p>
+                <p class="data_value">Imię (imiona)</p>
+            </div>
+            <div class="data_holder">
+                <p class="data_title surname" id="surname"></p>
+                <p class="data_value">Nazwisko</p>
+            </div>
+            <div class="data_holder">
+                <p class="data_title" id="nationality"></p>
+                <p class="data_value">Obywatelstwo</p>
+            </div>
+            <div class="data_holder">
+                <p class="data_title" id="birthday"></p>
+                <p class="data_value">Data urodzenia</p>
+            </div>
+            <div class="data_holder">
+                <p class="data_title" id="pesel"></p>
+                <p class="data_value">Numer PESEL</p>
+            </div>
+        </div>
+    </div>
+    <div class="id_bottom">
+        <div class="bottom_grid">
+            <img class="bottom_image" src="https://cdn.discordapp.com/attachments/1368962637026557985/1368962679561261177/8_-_hsyWg6u.png?ex=681a2158&is=6818cfd8&hm=4347319abd015f56c514d490a29a2c97fcc03a330b73484956a691929b1cc820&">
+            <p class="bottom_text" style="color: #317C26; font-size: 17px;">Dokument ważny</p>
+        </div>
+    </div>
+    <div class="other_grid">
+        <div class="bottom_holder">
+            <div class="bottom_grid">
+                <img class="bottom_image" style="width: 35px;" src="https://cdn.discordapp.com/attachments/1368962637026557985/1368962749631041697/39_-_s3W1S8e.png?ex=681a2169&is=6818cfe9&hm=00c32e91c4cf9197cf57d3f387784b0af40b97561922ac988eeebca12293b620&">
+                <p class="bottom_text" style="color: #1f2125;">Potwierdź swoje dane</p>
+            </div>
+            <img class="action_arrow" src="https://cdn.discordapp.com/attachments/1368962637026557985/1368962676780302366/1_-_5UXZQeZ.png?ex=681a2158&is=6818cfd8&hm=a07ec459439f92eec70a54cf915c959eca32dfb18e72fbba99e98144f309e63b&">
+        </div>
+        <div class="bottom_holder" onclick="openPage(1)">
+            <div class="bottom_grid">
+                <img class="bottom_image" style="width: 35px;" src="https://cdn.discordapp.com/attachments/1368962637026557985/1368962704685010945/12_-_MXXYIpL.png?ex=681a215e&is=6818cfde&hm=00ce3f85aab93decd82f9cabfa63cd5152895ef45bc49e9fcc1478e953536d21&">
+                <p class="bottom_text" style="color: #1f2125;">Dane dokumentu</p>
+            </div>
+            <img class="action_arrow" src="https://cdn.discordapp.com/attachments/1368962637026557985/1368962676780302366/1_-_5UXZQeZ.png?ex=681a2158&is=6818cfd8&hm=a07ec459439f92eec70a54cf915c959eca32dfb18e72fbba99e98144f309e63b&">
+        </div>
+        <div class="bottom_holder info_holder">
+            <div class="bottom_grid">
+                <p class="bottom_text" style="color: #1f2125; margin-left: 0px;">Twoje dodatkowe dane</p>
+            </div>
+            <img class="action_arrow" src="https://cdn.discordapp.com/attachments/1368962637026557985/1368962676780302366/1_-_5UXZQeZ.png?ex=681a2158&is=6818cfd8&hm=a07ec459439f92eec70a54cf915c959eca32dfb18e72fbba99e98144f309e63b&">
+            <div class="additional_holder">
+                <div class="additional_grid">
+                    <p class="additional_title">Nazwisko rodowe</p>
+                    <p class="additional_subtitle" id="familyName"></p>
+                </div>
+                <div class="additional_grid">
+                    <p class="additional_title">Płeć</p>
+                    <p class="additional_subtitle" id="sex"></p>
+                </div>
+                <div class="additional_grid">
+                    <p class="additional_title">Nazwisko rodowe ojca</p>
+                    <p class="additional_subtitle" id="fathersFamilyName"></p>
+                </div>
+                <div class="additional_grid">
+                    <p class="additional_title">Nazwisko rodowe matki</p>
+                    <p class="additional_subtitle" id="mothersFamilyName"></p>
+                </div>
+                <div class="additional_grid">
+                    <p class="additional_title">Miejsce urodzenia</p>
+                    <p class="additional_subtitle" id="birthPlace"></p>
+                </div>
+                <div class="additional_grid">
+                    <p class="additional_title">Kraj urodzenia</p>
+                    <p class="additional_subtitle" id="countryOfBirth"></p>
+                </div>
+                <div class="additional_grid">
+                    <p class="additional_title">Adres zameldowania na pobyt stały</p>
+                    <p class="additional_subtitle" id="adress"></p>
+                </div>
+                <div class="additional_grid" style="border-bottom: none;">
+                    <p class="additional_title">Data zameldowania na pobyt stały</p>
+                    <p class="additional_subtitle home_date"></p>
+                </div>
+            </div>
+        </div>
+        <div class="bottom_holder" style="height: 90px; margin-bottom: 120px;">
+            <div class="bottom_update">
+                <div class="bottom_update_grid">
+                    <p class="bottom_update_text" style="margin-left: 0px;">Ostatnia aktualizacja</p>
+                    <p class="bottom_update_value" style="margin-left: 0px;"></p>
+                </div>
+                <button class="main_button update">Aktualizuj</button>
+            </div>
+        </div>
+    </div>
+    <script src="assets/bar.js"></script>
+    <script src="assets/card.js?v=1.0"></script>
+    <script src="assets/manifest.js"></script>
+</body>
