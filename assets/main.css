@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root{
-    --home: url('https://cdn.discordapp.com/attachments/1368962637026557985/1368962724104638484/24_-_HrmSNYN.png?ex=681a2163&is=6818cfe3&hm=5019a3e94e2502d2d780c4a8ecb7df42a0ce42019aa678bf01ce0febe2718416&');
-    --home-open: url('https://media.discordapp.net/attachments/1368962637026557985/1368962723806974063/23_-_GX0o9qF.png?ex=681a2163&is=6818cfe3&hm=5b47b7342ebe6fd22402a78300bd49d5de60d23ff33a3045e3148a3542edcf85&=&format=webp&quality=lossless&width=94&height=94');
-    --documents: url('https://cdn.discordapp.com/attachments/1368962637026557985/1368962704920023101/13_-_axXjrwO.png?ex=681a215e&is=6818cfde&hm=b5d678cf1efd74b4814dae14c5b3ed438b54338d29fef911b23b30e78798ae12&');
-    --documents-open: url('https://cdn.discordapp.com/attachments/1368962637026557985/1368962704920023101/13_-_axXjrwO.png?ex=681a215e&is=6818cfde&hm=b5d678cf1efd74b4814dae14c5b3ed438b54338d29fef911b23b30e78798ae12&');
-    --services: url('https://cdn.discordapp.com/attachments/1368962637026557985/1368962777024303124/42_-_4vI1V1U.png?ex=681a2170&is=6818cff0&hm=8c81da0723c80662021558af0742a8bd0450ec902c4c6c93b44e9f100a8d2e3e&');
-    --services-open: url('https://cdn.discordapp.com/attachments/1368962637026557985/1368962777024303124/42_-_4vI1V1U.png?ex=681a2170&is=6818cff0&hm=8c81da0723c80662021558af0742a8bd0450ec902c4c6c93b44e9f100a8d2e3e&');
-    --qr: url('https://cdn.discordapp.com/attachments/1368962637026557985/1368962749123788954/37_-_4WqwP6R.png?ex=681a2169&is=6818cfe9&hm=7982998ca5dfc37f26462d00e3ba90e6cbbea31edb519c713ca3111b8a419500&');
-    --qr-open: url('https://cdn.discordapp.com/attachments/1368962637026557985/1368962749123788954/37_-_4WqwP6R.png?ex=681a2169&is=6818cfe9&hm=7982998ca5dfc37f26462d00e3ba90e6cbbea31edb519c713ca3111b8a419500&');
-    --more: url('https://cdn.discordapp.com/attachments/1368962637026557985/1368962747332690073/31_-_KomXlf1.png?ex=681a2169&is=6818cfe9&hm=ef0d656f46c509b996d8087fe07c7c86120135f52a4abf7bbd2aca3b13ddaac7&');
-    --more-open: url('https://cdn.discordapp.com/attachments/1368962637026557985/1368962747332690073/31_-_KomXlf1.png?ex=681a2169&is=6818cfe9&hm=ef0d656f46c509b996d8087fe07c7c86120135f52a4abf7bbd2aca3b13ddaac7&');
+    --home: url('https://i.postimg.cc/FKYx7R9X/24-Hrm-SNYN.png');
+    --home-open: url('https://i.postimg.cc/zGtjzWYk/23-GX0o9q-F.png');
+    --documents: url('https://i.postimg.cc/25y0hG7J/14-cr-GEo-Br.png');
+    --documents-open: url('https://i.postimg.cc/mg8dPJCC/13-ax-Xjrw-O.png');
+    --services: url('https://i.postimg.cc/QdH7qyvp/42-4v-I1-V1-U.png');
+    --services-open: url('https://i.postimg.cc/fTHXmNqz/41-Ubxy-Ns5.png');
+    --qr: url('https://i.postimg.cc/zBmTvFtT/37-4-Wqw-P6-R.png');
+    --qr-open: url('https://i.postimg.cc/8z5R05ff/35-1-Wj-BH79.png');
+    --more: url('https://i.postimg.cc/RhL7jJTK/31-Kom-Xlf1.png');
+    --more-open: url('https://i.postimg.cc/GtCP7xvb/30-q-Qm4c7t.png');
     --text: #024b97;
     --shadow: 0px 0px 10px rgb(224, 224, 224);
 }
